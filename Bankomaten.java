@@ -2,8 +2,8 @@
 package bankomaten;
 
 public class Bankomaten {
-
-    public static void main(String[] args) {
+        
+    public void createDefault() {
         Bank Handelsbanken = new Bank("Handelsbanken");
         
         Account accountFuture1 = new Account("09-14339112", "Futureaccount", 200_000);
@@ -40,5 +40,4 @@ public class Bankomaten {
         
         Handelsbanken.printInfo();
     }
-
 }
