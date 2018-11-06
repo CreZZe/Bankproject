@@ -3,8 +3,10 @@ package bankomaten;
 
 public class Bankomaten {
         
+    Bank Handelsbanken;
+    
     public void createDefault() {
-        Bank Handelsbanken = new Bank("Handelsbanken");
+        Handelsbanken = new Bank("Handelsbanken");
         
         Account accountFuture1 = new Account("09-14339112", "Futureaccount", 200_000);
         Account accountFuture2 = new Account("09-18543366", "Futureaccount", 125_000);
@@ -39,5 +41,9 @@ public class Bankomaten {
         loan2.setBeviljare(employeeOla);
         
         Handelsbanken.printInfo();
+    }
+    
+    public Bank getBank() {
+        return Handelsbanken;
     }
 }

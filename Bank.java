@@ -9,6 +9,8 @@ public class Bank {
     List<Employee> employees = new ArrayList<>();
     List<Customer> customers = new ArrayList<>();
     
+    public Bank() {}
+    
     public Bank(String name) {
         this.name = name;
     }
@@ -23,6 +25,10 @@ public class Bank {
 
     public void setCustomer(Customer c) {
         customers.add(c);
+    }
+    
+    public List<Customer> getCustomers() {
+        return customers;
     }
     
     public void printEmployees() {

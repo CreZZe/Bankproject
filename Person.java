@@ -3,20 +3,20 @@ package bankomaten;
 
 abstract public class Person {
     private String name;
-    private String personnummer;
+    private String personalIDNumber;
     private int age;
     
-    public Person(String name, String personnummer) {
+    public Person(String name, String personalIDNumber) {
         this.name = name;
-        this.personnummer = personnummer;
+        this.personalIDNumber = personalIDNumber;
     }
     
     public String getName() {
         return name;
     }
 
-    public String getPersonnummer() {
-        return personnummer;
+    public String getPersonalIDNumber() {
+        return personalIDNumber;
     }
 
     public int getAge() {

@@ -1,0 +1,14 @@
+/* 
+    Created on : 2018-nov-06, 20:28:54
+    Author     : 224Mi
+*/
+
+.headerLabel {
+    -fx-font-size: 22px;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-min-height: 30px;
+    -fx-padding: 10px 25px;
+}
